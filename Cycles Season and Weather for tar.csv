@@ -27,3 +27,7 @@ AG RESIDUE,,Mg/ha,soil_surface_residue~remaining-at-harvest__mass-per-area_densi
 N IN HARVEST,,kg/ha,biomass~removed_nitrogen__mass-per-area_density
 ,,,
 POTENTIAL TR,,mm/day,crop__potential_transpiration_rate
+,,,
+evap,,mm,soil_water__time_integral_of_evaporation_volume_flux
+,,,
+TOTAL N,,Mg/ha,crop_biomass_nitrogen__harvest_accumulation_mass-per-area_density
