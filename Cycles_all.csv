@@ -1,0 +1,49 @@
+Short Name,Long Name,Units,GSN Name
+,,,
+DOY,day of the year,None,None
+,,,
+PP,precipitation,mm,atmosphere_water__time_integral_of_precipitation_leq_volume_flux
+,,,
+Tx,temperature air maximum of the day,C,air__one-day_max_of_temperature
+,,,
+Tn,temperature minimum of the day,C,air__one-day_min_of_temperature
+,,,
+Solar,solar radiation of the day ,MJ/m2/day,land_surface_radiation~solar__energy_flux
+,,,
+RHx,relative humidity maximum,Pa/Pa x 100,atmosphere_air_water~vapor__max_of_relative_saturation
+,,,
+RHn,relative humidity minimum,%,atmosphere_air_water~vapor__min_of_relative_saturation
+,,,
+Wind,wind speed,m/s,land_surface_wind__speed
+,,,
+CURVE_NUMBER,soil curve number,None,land_surface_water__usdanrcs_runoff_curve_number
+,,,
+SLOPE,slope of the field,m/m,land_surface__slope
+,,,
+LAYER,soil layer number,None,None 
+,,,
+DZ,soil layer thickness,m,soil_layer__thickness
+,,,
+CLAY,clay percentage,%,soil_clay_particle__volume_fraction
+,,,
+SILT,silt percentage,%,soil~no-rock_silt__mass_fraction
+,,,
+RV,rock volume,m3/m3,soil_rock__volume_fraction
+,,,
+BD,bulk density,Mg/m3,soil__bulk_mass-per-volume_density
+,,,
+SOM,soil organic matter,kg/kg x 100,soil_matter~organic__mass_fraction
+,,,
+SMC,soil moisture content,m3/m3,soil_water__volume_fraction
+,,,
+TOTAL BIOMASS,total plant biomass,Mg/ha,plant__mass-per-area_harvest_forage_density
+,,,
+ROOT BIOMASS,root biomass,Mg/ha,plant_root__mass-per-area_harvest_density
+,,,
+GRAIN YIELD,grain yield,Mg/ha,grain__dry_mass-per-area_yield
+,,,
+RESIDUE EVAP,water evaporation from residues on soil,mm/day,soil_plant_residue_water__volume-per-area_evaporation_rate
+,,,
+PLANT EVAP,water evaporation from leaving plants,mm/day,plants~living_water__volume-per-area_evaporation_rate
+,,,
+SWC,soil water content by layer,m3/m3,soil_water__volume_fraction

@@ -1,0 +1,9 @@
+Short Name,Long Name,Units,GSN Name
+,,,
+DOY,day of the year,None,None
+,,,
+ROT_YEAR,None,None,land_rotation__tillage_tillage
+,,,
+SMC_L1,None,m3/m3,soil_layer~1_water__volume_fraction
+,,,
+INFILTRATION,None,m/day,soil_water__volume-per-area_infiltration_rate

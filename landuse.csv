@@ -1,0 +1,11 @@
+Short Name,Long Name,Units,GSN Name
+,,,
+fert_subsidy,nitrogen fertilizer subsidy,percent,fertilizer~nitrogen__application_reduced_cost_fraction
+,,,
+land area,land allocation,ha,land_crop__allocated_area
+,,,
+obsyield,crop yields,kg/ha,land_crop__mass-per-area_yield
+,,,
+production,crop production,kg,crop__produced_mass
+,,,
+Nfert,nitrogen fertilizer applications,kg/ha,crop_fertilizer~nitrogen__applied_mass-per-area_density
