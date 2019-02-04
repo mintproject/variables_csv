@@ -1,0 +1,29 @@
+Short Name,Long Name,Units,GSN Name
+,,,
+PP,precipitation,mm,atmosphere_water__time_integral_of_precipitation_leq_volume_flux
+,,,
+Tx,temperature air maximum of the day,C,air__one-day_max_of_temperature
+,,,
+Tn,temperature minimum of the day,C,air__one-day_min_of_temperature
+,,,
+ACTUAL TR,,mm,Actual water transpiration of the crop given soil moisture conditions in the simulation.
+,,,
+AG RESIDUE,,Mg/ha,Aboveground residue biomass left in the field at harvest.
+,,,
+CUM. N STRESS,,,"Cumulative N stress over the duration of crop growth, calculated as the sum of each daily N stress weighted by the daily fraction of thermal time accumulated to maturity."
+,,,
+TOTAL BIOMASS,total plant biomass,Mg/ha,plant__mass-per-area_harvest_forage_density
+,,,
+ROOT BIOMASS,root biomass,Mg/ha,plant_root__mass-per-area_harvest_density
+,,,
+GRAIN YIELD,grain yield,Mg/ha,grain__dry_mass-per-area_yield
+,,,
+FORAGE YIELD,,Mg/ha,residue~removed__mass-per-area_harvest_forage_yield
+,,,
+ACTUAL TR,,mm,crop_water__time_integral_of_transpiration_volume_flux
+,,,
+AG RESIDUE,,Mg/ha,soil_surface_residue~remaining-at-harvest__mass-per-area_density
+,,,
+N IN HARVEST,,kg/ha,biomass~removed_nitrogen__mass-per-area_density
+,,,
+POTENTIAL TR,,mm/day,crop__potential_transpiration_rate
